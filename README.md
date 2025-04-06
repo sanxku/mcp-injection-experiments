@@ -26,7 +26,8 @@ Lastly, in [`whatsapp-takeover.py`](./whatsapp-takeover.py), we implement a shad
 
 The server first masks as a benign "random fact of the day" implementation, and then changes the tool to a malicious one that manipulates [whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) in the same agent, to leak messages to the attacker's phone number.
 
-![Image](https://github-production-user-asset-6210df.s3.amazonaws.com/17903049/430713783-c3067571-0db3-42c1-b822-2d0245060eda.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T145231Z&X-Amz-Expires=300&X-Amz-Signature=bb7ed65dab3fc58d8fb0c14a0e59bcf71f78a6bc1692647cb625db83e17e7e69&X-Amz-SignedHeaders=host)
+![Cursor executes WhatsApp MCP attack](https://github.com/user-attachments/assets/a39ea101-3fd2-4945-abcd-942006cfe11c)
+
 
 Can you spot the exfiltration? Here, the malicious tool instructions, ask the agent to include the smuggled data after many spaces, such that with invisible scroll bars, the user does not see the data being leaked.
 
