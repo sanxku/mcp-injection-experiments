@@ -29,5 +29,5 @@ The server first masks as a benign "random fact of the day" implementation, and 
 ![Cursor executes WhatsApp MCP attack](https://github.com/user-attachments/assets/a39ea101-3fd2-4945-abcd-942006cfe11c)
 
 
-Can you spot the exfiltration? Here, the malicious tool instructions, ask the agent to include the smuggled data after many spaces, such that with invisible scroll bars, the user does not see the data being leaked.
+Can you spot the exfiltration? Here, the malicious tool instructions ask the agent to include the smuggled data after many spaces, such that with invisible scroll bars, the user does not see the data being leaked. Only when you scroll all the way to the right, will you be able to find the exfiltration payload.
 
