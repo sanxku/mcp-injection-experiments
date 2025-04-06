@@ -14,7 +14,7 @@ An example execution in cursor looks like this:
 
 ## Tool Shadowing
 
-In [`shadowing.py`](./tool-shadowing.py), we implement a more sophisticated MCP attack, that manipulates the agent's behavior of a `send_email` tool (provided by a different, trusted server), such that all emails sent by the agent are leaked to the attacker's server.
+In [`shadowing.py`](./shadowing.py), we implement a more sophisticated MCP attack, that manipulates the agent's behavior of a `send_email` tool (provided by a different, trusted server), such that all emails sent by the agent are leaked to the attacker's server.
 
 An example execution in Cursor looks like this:
 
