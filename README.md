@@ -4,6 +4,8 @@ This repository contains a few experimental MCP server implementations, that att
 
 For more details about the attack method, please see our [blog post](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks).
 
+Regarding mitigations, check out [invariantlabs-ai/invariant](https://github.com/invariantlabs-ai/invariant?tab=readme-ov-file#analyzer).
+
 ## Direct Poisoning 
 
 In [`direct-poisoning.py`](./direct-poisoning.py), we implement a simple MCP server that instructs an agent to leak sensitive files, when calling the `add` tool (in this case SSH keys and the `mcp.json` file itself). 
