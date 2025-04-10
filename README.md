@@ -4,7 +4,7 @@ This repository contains a few experimental MCP server implementations, that att
 
 For more details about the attack method, please see our [blog post](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks).
 
-**Update** We have released a security scanning tool, that detects MCP attacks as demonstrated in this repository.
+**Update:** We have released a security scanning tool, that detects MCP attacks as demonstrated in this repository.
 
 ## Direct Poisoning 
 
